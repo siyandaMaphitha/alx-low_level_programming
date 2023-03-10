@@ -8,8 +8,8 @@
 	 *
 	 * Return: Always 0 (Success)
 	 */
-int check_num(char *str)
-{
+	int check_num(char *str)
+	{
 		/*Declaring variables*/
 		unsigned int count;
 
@@ -38,8 +38,12 @@ int check_num(char *str)
 	 *
 	 * Return: Always 0 (Success)
 	 */
-int main(int argc, char *argv[])
-{
+
+
+	int main(int argc, char *argv[])
+
+
+	{
 
 
 		/*Declaring variables*/
@@ -60,15 +64,17 @@ int main(int argc, char *argv[])
 			}
 
 
-/*Condition if one of the number contains symbols that are not digits*/
+			/*Condition if one of the number contains symbols that are not digits*/
 			else
 			{
 				printf("Error\n");
 				return (1);
 			}
 
+
 			count++;
 		}
+
 
 		printf("%d\n", sum); /*print sum*/
 
