@@ -3,17 +3,22 @@
 /**
  * print_last_digit - entry point
  * a function that prints the last digit of a number
- * @x: the int to extract the last digit
+ * @n: the int to extract the last digit
  * Return: value of the last digit
  */
-int print_last_digit(int x)
+int print_last_digit(int n)
 {
-	int digit = x % 10;
+	int a;
 
-	if (digit < 0)
-		last_digit *= -1;
+	if (n < 0)
+		n = -n;
 
-	_putchar(digit + '0');
+	a = n % 10;
 
-	return (digit);
+	if (a < 0)
+		a = -a;
+
+	_putchar(a + '0');
+
+	return (a);
 }
