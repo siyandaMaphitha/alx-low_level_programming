@@ -2,7 +2,7 @@
 
 /**
  * _strlen_recursion - returns the legnth of a string
- * @s : string to calculate the legnth of 
+ * @s : string to calculate the legnth of
  * Return: legnth of the string
  */
 int _strlen_recursion(char *s)
